@@ -39,8 +39,6 @@ function App() {
     return () => clearInterval(upadteInterval);
   }, []);
 
-  console.log();
-
   return (
     <AppContainer>
       <FormContainer>
